@@ -26,11 +26,11 @@ How to use
 
 6. Put everything else from H5BP in ‘public_html’
 
-7. Download ‘Publish Up The Tree’
+7. Download ‘Publish Up The Tree’ (above)
 
 8. Replace the three files provided:
-* /dev/build/build.xml
-* /dev/build/config/*
+	* /dev/build/build.xml
+	* /dev/build/config/*
 
 9. Download Fuel or CodeIgniter and place in ‘dev’
 
