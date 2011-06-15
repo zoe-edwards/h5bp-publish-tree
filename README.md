@@ -74,6 +74,8 @@ This is what I’m talking about:
 	|   |-- img
 	|   `-- index.php
 
+In this situation, one would add ‘fuel/app/views/welcome/index.php’ to ‘file.pages’ in ‘project.properties’.
+
 Limitations
 -----------
 
