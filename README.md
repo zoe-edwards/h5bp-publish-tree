@@ -38,6 +38,42 @@ How to use
 
 11. Run build as normal
 
+Structure
+---------
+
+This is what I’m talking about:
+
+	/home/user
+	|-- dev
+	|   |-- build
+	|   |   `-- build.xml etc
+	|   |-- fuel
+	|   |   |-- app
+	|   |   |   |-- views
+	|   |   |   |   |-- welcome
+	|   |   |   |   |   |-- index.php
+	|   |   |-- core
+	|   |   `-- packages
+	|   `-- public_html
+	|       |-- apple-touch etc...
+	|       |-- css
+	|       |-- js
+	|       |-- img
+	|       `-- index.php
+	|-- fuel
+	|   |-- app
+	|   |   |-- views
+	|   |   |   |-- welcome
+	|   |   |   |   |-- index.php
+	|   |-- core
+	|   `-- packages
+	|-- public_html
+	|   |-- apple-touch etc...
+	|   |-- css
+	|   |-- js
+	|   |-- img
+	|   `-- index.php
+
 Limitations
 -----------
 
