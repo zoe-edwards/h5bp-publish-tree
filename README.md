@@ -47,6 +47,7 @@ This is what I’m talking about:
 	|-- dev
 	|   |-- build
 	|   |   `-- build.xml etc
+	|   |
 	|   |-- fuel
 	|   |   |-- app
 	|   |   |   |-- views
@@ -54,12 +55,14 @@ This is what I’m talking about:
 	|   |   |   |   |   |-- index.php
 	|   |   |-- core
 	|   |   `-- packages
+	|   |
 	|   `-- public_html
 	|       |-- apple-touch etc...
 	|       |-- css
 	|       |-- js
 	|       |-- img
 	|       `-- index.php
+	|
 	|-- fuel
 	|   |-- app
 	|   |   |-- views
@@ -67,14 +70,15 @@ This is what I’m talking about:
 	|   |   |   |   |-- index.php
 	|   |-- core
 	|   `-- packages
+	|
 	`-- public_html
-	    |-- apple-touch etc...
+	    |-- apple-touch etc
 	    |-- css
 	    |-- js
 	    |-- img
 	    `-- index.php
 
-In this situation, one would add ‘fuel/app/views/welcome/index.php’ to ‘file.pages’ in ‘project.properties’.
+In this situation, one would add ‘fuel/app/views/welcome/index.php’ to ‘file.pages’ in ‘project.properties’. Or you could add ‘fuel/app/views/**/*.php’ to all PHP files.
 
 Limitations
 -----------
