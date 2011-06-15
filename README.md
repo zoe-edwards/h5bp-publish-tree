@@ -67,7 +67,7 @@ This is what I’m talking about:
 	|   |   |   |   |-- index.php
 	|   |-- core
 	|   `-- packages
-	|-- public_html
+	`-- public_html
 	    |-- apple-touch etc...
 	    |-- css
 	    |-- js
